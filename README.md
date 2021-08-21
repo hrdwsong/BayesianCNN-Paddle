@@ -23,7 +23,7 @@
 |alexnet-bbb|98.73%|
 |3conv3fc-bbb|99.07%|
 |lenet-lrt|98.76%|
-|alexnet-lrt|-|
+|alexnet-lrt|98.82%|
 |3conv3fc-lrt|99.29%|
 
 超参数配置如下：
@@ -174,4 +174,4 @@ Testing Accuracy: 0.9907
 | 框架版本 | Paddle 2.1.2 |
 | 应用场景 | 贝叶斯神经网络 |
 | 支持硬件 | GPU、CPU |
-|Aistudio地址||
+|Aistudio地址|https://aistudio.baidu.com/aistudio/projectdetail/2301297?shared=1|
