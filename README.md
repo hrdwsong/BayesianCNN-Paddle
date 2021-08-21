@@ -23,7 +23,7 @@
 |alexnet-bbb|98.73%|
 |3conv3fc-bbb|99.07%|
 |lenet-lrt|98.76%|
-|alexnet-lrt|98.82%|
+|alexnet-lrt|98.69%|
 |3conv3fc-lrt|99.29%|
 
 超参数配置如下：
