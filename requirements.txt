@@ -1,0 +1,8 @@
+matplotlib==3.3.4
+paddlepaddle_gpu==2.1.2.post110
+pandas==1.2.4
+numpy==1.19.3
+pytest==6.2.4
+paddle==1.0.2
+Pillow==8.3.1
+seaborn==0.11.2

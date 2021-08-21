@@ -1,0 +1,565 @@
+D:\ProgramData\Anaconda3\envs\paddle_gpu\python.exe "F:\FormalDL\比赛\人工智能创新应用大赛20210817\Weight Uncertainty in Neural Networks\Paddle-BayesianCNN\train.py"
+W0821 11:16:44.939680 46148 device_context.cc:404] Please NOTE: device: 0, GPU Compute Capability: 8.6, Driver API Version: 11.2, Runtime API Version: 11.0
+W0821 11:16:44.947655 46148 device_context.cc:422] device: 0, cuDNN Version: 8.1.
+Epoch: 0 	Training Loss: 210555.0472 	Training Accuracy: 0.1128 	Validation Loss: 668625.0316 	Validation Accuracy: 0.1126 	train_kl_div: 12530950.5426
+Validation loss decreased (inf --> 668625.031582).  Saving model ...
+Testing Accuracy: 0.1138
+Epoch: 1 	Training Loss: 192260.4282 	Training Accuracy: 0.2536 	Validation Loss: 555200.0877 	Validation Accuracy: 0.6370 	train_kl_div: 10950687.5479
+Validation loss decreased (668625.031582 --> 555200.087683).  Saving model ...
+Testing Accuracy: 0.6295
+Epoch: 2 	Training Loss: 100086.9435 	Training Accuracy: 0.7916 	Validation Loss: 481770.2168 	Validation Accuracy: 0.8639 	train_kl_div: 10499839.9521
+Validation loss decreased (555200.087683 --> 481770.216838).  Saving model ...
+Testing Accuracy: 0.8646
+Epoch: 3 	Training Loss: 80840.7177 	Training Accuracy: 0.8774 	Validation Loss: 436939.3316 	Validation Accuracy: 0.9047 	train_kl_div: 9707145.2606
+Validation loss decreased (481770.216838 --> 436939.331616).  Saving model ...
+Testing Accuracy: 0.9065
+Epoch: 4 	Training Loss: 70810.9195 	Training Accuracy: 0.9060 	Validation Loss: 403302.3370 	Validation Accuracy: 0.9224 	train_kl_div: 9004665.8032
+Validation loss decreased (436939.331616 --> 403302.336976).  Saving model ...
+Testing Accuracy: 0.9255
+Epoch: 5 	Training Loss: 63807.3481 	Training Accuracy: 0.9218 	Validation Loss: 376689.7286 	Validation Accuracy: 0.9306 	train_kl_div: 8429119.4282
+Validation loss decreased (403302.336976 --> 376689.728578).  Saving model ...
+Testing Accuracy: 0.9376
+Epoch: 6 	Training Loss: 58500.8026 	Training Accuracy: 0.9329 	Validation Loss: 352862.5455 	Validation Accuracy: 0.9498 	train_kl_div: 7944046.0904
+Validation loss decreased (376689.728578 --> 352862.545545).  Saving model ...
+Testing Accuracy: 0.9456
+Epoch: 7 	Training Loss: 54043.8844 	Training Accuracy: 0.9421 	Validation Loss: 334178.9477 	Validation Accuracy: 0.9503 	train_kl_div: 7530024.2739
+Validation loss decreased (352862.545545 --> 334178.947733).  Saving model ...
+Testing Accuracy: 0.9498
+Epoch: 8 	Training Loss: 50636.7648 	Training Accuracy: 0.9491 	Validation Loss: 317099.6014 	Validation Accuracy: 0.9571 	train_kl_div: 7162488.9707
+Validation loss decreased (334178.947733 --> 317099.601417).  Saving model ...
+Testing Accuracy: 0.9579
+Epoch: 9 	Training Loss: 47878.9831 	Training Accuracy: 0.9520 	Validation Loss: 302404.9552 	Validation Accuracy: 0.9617 	train_kl_div: 6837491.3670
+Validation loss decreased (317099.601417 --> 302404.955203).  Saving model ...
+Testing Accuracy: 0.9613
+Epoch: 10 	Training Loss: 45299.4671 	Training Accuracy: 0.9564 	Validation Loss: 289471.3997 	Validation Accuracy: 0.9612 	train_kl_div: 6541364.3989
+Validation loss decreased (302404.955203 --> 289471.399663).  Saving model ...
+Testing Accuracy: 0.9619
+Epoch: 11 	Training Loss: 43187.5813 	Training Accuracy: 0.9596 	Validation Loss: 277498.8923 	Validation Accuracy: 0.9625 	train_kl_div: 6272740.3883
+Validation loss decreased (289471.399663 --> 277498.892334).  Saving model ...
+Testing Accuracy: 0.9627
+Epoch: 12 	Training Loss: 41293.1550 	Training Accuracy: 0.9615 	Validation Loss: 265621.9798 	Validation Accuracy: 0.9689 	train_kl_div: 6020597.3803
+Validation loss decreased (277498.892334 --> 265621.979778).  Saving model ...
+Testing Accuracy: 0.9688
+Epoch: 13 	Training Loss: 39615.9222 	Training Accuracy: 0.9630 	Validation Loss: 255245.8491 	Validation Accuracy: 0.9691 	train_kl_div: 5789211.0027
+Validation loss decreased (265621.979778 --> 255245.849100).  Saving model ...
+Testing Accuracy: 0.9705
+Epoch: 14 	Training Loss: 37942.3666 	Training Accuracy: 0.9657 	Validation Loss: 246537.1419 	Validation Accuracy: 0.9640 	train_kl_div: 5568315.7154
+Validation loss decreased (255245.849100 --> 246537.141939).  Saving model ...
+Testing Accuracy: 0.9661
+Epoch: 15 	Training Loss: 36601.0937 	Training Accuracy: 0.9668 	Validation Loss: 236453.3299 	Validation Accuracy: 0.9710 	train_kl_div: 5363778.2154
+Validation loss decreased (246537.141939 --> 236453.329860).  Saving model ...
+Testing Accuracy: 0.9697
+Epoch: 16 	Training Loss: 35178.8131 	Training Accuracy: 0.9679 	Validation Loss: 228361.5460 	Validation Accuracy: 0.9687 	train_kl_div: 5168972.8245
+Validation loss decreased (236453.329860 --> 228361.545976).  Saving model ...
+Testing Accuracy: 0.9695
+Epoch: 17 	Training Loss: 33962.6849 	Training Accuracy: 0.9685 	Validation Loss: 219881.8796 	Validation Accuracy: 0.9723 	train_kl_div: 4983114.7207
+Validation loss decreased (228361.545976 --> 219881.879576).  Saving model ...
+Testing Accuracy: 0.9740
+Epoch: 18 	Training Loss: 32637.9254 	Training Accuracy: 0.9704 	Validation Loss: 211580.5933 	Validation Accuracy: 0.9757 	train_kl_div: 4806464.5239
+Validation loss decreased (219881.879576 --> 211580.593251).  Saving model ...
+Testing Accuracy: 0.9754
+Epoch: 19 	Training Loss: 31461.5051 	Training Accuracy: 0.9710 	Validation Loss: 204421.6506 	Validation Accuracy: 0.9741 	train_kl_div: 4631954.1330
+Validation loss decreased (211580.593251 --> 204421.650619).  Saving model ...
+Testing Accuracy: 0.9736
+Epoch: 20 	Training Loss: 30544.7785 	Training Accuracy: 0.9716 	Validation Loss: 197598.3565 	Validation Accuracy: 0.9714 	train_kl_div: 4471116.5186
+Validation loss decreased (204421.650619 --> 197598.356471).  Saving model ...
+Testing Accuracy: 0.9716
+Epoch: 21 	Training Loss: 29562.6416 	Training Accuracy: 0.9716 	Validation Loss: 190430.0914 	Validation Accuracy: 0.9763 	train_kl_div: 4317950.8537
+Validation loss decreased (197598.356471 --> 190430.091433).  Saving model ...
+Testing Accuracy: 0.9758
+Epoch: 22 	Training Loss: 28516.6938 	Training Accuracy: 0.9735 	Validation Loss: 184271.5708 	Validation Accuracy: 0.9754 	train_kl_div: 4170131.9495
+Validation loss decreased (190430.091433 --> 184271.570837).  Saving model ...
+Testing Accuracy: 0.9749
+Epoch: 23 	Training Loss: 27512.1077 	Training Accuracy: 0.9742 	Validation Loss: 177246.9917 	Validation Accuracy: 0.9785 	train_kl_div: 4024882.9269
+Validation loss decreased (184271.570837 --> 177246.991712).  Saving model ...
+Testing Accuracy: 0.9788
+Epoch: 24 	Training Loss: 26641.2559 	Training Accuracy: 0.9737 	Validation Loss: 171286.4092 	Validation Accuracy: 0.9778 	train_kl_div: 3885312.0160
+Validation loss decreased (177246.991712 --> 171286.409242).  Saving model ...
+Testing Accuracy: 0.9778
+Epoch: 25 	Training Loss: 25760.4861 	Training Accuracy: 0.9754 	Validation Loss: 165703.1215 	Validation Accuracy: 0.9783 	train_kl_div: 3751815.4801
+Validation loss decreased (171286.409242 --> 165703.121473).  Saving model ...
+Testing Accuracy: 0.9770
+Epoch: 26 	Training Loss: 25035.2850 	Training Accuracy: 0.9745 	Validation Loss: 160138.4079 	Validation Accuracy: 0.9779 	train_kl_div: 3625412.0971
+Validation loss decreased (165703.121473 --> 160138.407852).  Saving model ...
+Testing Accuracy: 0.9783
+Epoch: 27 	Training Loss: 24197.3003 	Training Accuracy: 0.9755 	Validation Loss: 154864.2278 	Validation Accuracy: 0.9778 	train_kl_div: 3502799.9840
+Validation loss decreased (160138.407852 --> 154864.227768).  Saving model ...
+Testing Accuracy: 0.9798
+Epoch: 28 	Training Loss: 23423.0767 	Training Accuracy: 0.9764 	Validation Loss: 149473.0443 	Validation Accuracy: 0.9793 	train_kl_div: 3385438.9122
+Validation loss decreased (154864.227768 --> 149473.044330).  Saving model ...
+Testing Accuracy: 0.9794
+Epoch: 29 	Training Loss: 22658.0366 	Training Accuracy: 0.9768 	Validation Loss: 144446.9598 	Validation Accuracy: 0.9817 	train_kl_div: 3272487.7513
+Validation loss decreased (149473.044330 --> 144446.959815).  Saving model ...
+Testing Accuracy: 0.9810
+Epoch: 30 	Training Loss: 21822.4025 	Training Accuracy: 0.9781 	Validation Loss: 139428.4926 	Validation Accuracy: 0.9797 	train_kl_div: 3157510.6582
+Validation loss decreased (144446.959815 --> 139428.492572).  Saving model ...
+Testing Accuracy: 0.9802
+Epoch: 31 	Training Loss: 21321.1856 	Training Accuracy: 0.9773 	Validation Loss: 135090.6037 	Validation Accuracy: 0.9789 	train_kl_div: 3050126.9441
+Validation loss decreased (139428.492572 --> 135090.603677).  Saving model ...
+Testing Accuracy: 0.9766
+Epoch: 32 	Training Loss: 20530.9085 	Training Accuracy: 0.9784 	Validation Loss: 130726.1382 	Validation Accuracy: 0.9782 	train_kl_div: 2949197.4428
+Validation loss decreased (135090.603677 --> 130726.138225).  Saving model ...
+Testing Accuracy: 0.9767
+Epoch: 33 	Training Loss: 19895.3395 	Training Accuracy: 0.9788 	Validation Loss: 125878.9039 	Validation Accuracy: 0.9828 	train_kl_div: 2850151.7394
+Validation loss decreased (130726.138225 --> 125878.903858).  Saving model ...
+Testing Accuracy: 0.9812
+Epoch: 34 	Training Loss: 19284.3502 	Training Accuracy: 0.9793 	Validation Loss: 122356.9669 	Validation Accuracy: 0.9783 	train_kl_div: 2752718.4495
+Validation loss decreased (125878.903858 --> 122356.966854).  Saving model ...
+Testing Accuracy: 0.9788
+Epoch: 35 	Training Loss: 18602.7719 	Training Accuracy: 0.9806 	Validation Loss: 118131.9954 	Validation Accuracy: 0.9810 	train_kl_div: 2660745.0213
+Validation loss decreased (122356.966854 --> 118131.995400).  Saving model ...
+Testing Accuracy: 0.9797
+Epoch: 36 	Training Loss: 18045.5752 	Training Accuracy: 0.9803 	Validation Loss: 113625.6283 	Validation Accuracy: 0.9835 	train_kl_div: 2571564.3604
+Validation loss decreased (118131.995400 --> 113625.628311).  Saving model ...
+Testing Accuracy: 0.9824
+Epoch: 37 	Training Loss: 17453.6871 	Training Accuracy: 0.9810 	Validation Loss: 109769.6963 	Validation Accuracy: 0.9835 	train_kl_div: 2484266.9162
+Validation loss decreased (113625.628311 --> 109769.696262).  Saving model ...
+Testing Accuracy: 0.9836
+Epoch: 38 	Training Loss: 16882.7706 	Training Accuracy: 0.9818 	Validation Loss: 107126.2980 	Validation Accuracy: 0.9771 	train_kl_div: 2402576.2673
+Validation loss decreased (109769.696262 --> 107126.298039).  Saving model ...
+Testing Accuracy: 0.9815
+Epoch: 39 	Training Loss: 16532.0990 	Training Accuracy: 0.9804 	Validation Loss: 102945.9096 	Validation Accuracy: 0.9858 	train_kl_div: 2324984.7633
+Validation loss decreased (107126.298039 --> 102945.909556).  Saving model ...
+Testing Accuracy: 0.9829
+Epoch: 40 	Training Loss: 15925.6189 	Training Accuracy: 0.9820 	Validation Loss: 99853.8506 	Validation Accuracy: 0.9834 	train_kl_div: 2250049.1862
+Validation loss decreased (102945.909556 --> 99853.850622).  Saving model ...
+Testing Accuracy: 0.9829
+Epoch: 41 	Training Loss: 15358.3224 	Training Accuracy: 0.9832 	Validation Loss: 96756.0237 	Validation Accuracy: 0.9841 	train_kl_div: 2177551.9880
+Validation loss decreased (99853.850622 --> 96756.023747).  Saving model ...
+Testing Accuracy: 0.9816
+Epoch: 42 	Training Loss: 15085.2007 	Training Accuracy: 0.9817 	Validation Loss: 93447.2577 	Validation Accuracy: 0.9837 	train_kl_div: 2101808.0938
+Validation loss decreased (96756.023747 --> 93447.257693).  Saving model ...
+Testing Accuracy: 0.9837
+Epoch: 43 	Training Loss: 14493.6542 	Training Accuracy: 0.9829 	Validation Loss: 90106.3449 	Validation Accuracy: 0.9861 	train_kl_div: 2033430.2799
+Validation loss decreased (93447.257693 --> 90106.344854).  Saving model ...
+Testing Accuracy: 0.9849
+Epoch: 44 	Training Loss: 14057.8760 	Training Accuracy: 0.9829 	Validation Loss: 87190.4143 	Validation Accuracy: 0.9851 	train_kl_div: 1965756.3311
+Validation loss decreased (90106.344854 --> 87190.414286).  Saving model ...
+Testing Accuracy: 0.9857
+Epoch: 45 	Training Loss: 13648.2530 	Training Accuracy: 0.9832 	Validation Loss: 84639.6853 	Validation Accuracy: 0.9846 	train_kl_div: 1900333.7739
+Validation loss decreased (87190.414286 --> 84639.685290).  Saving model ...
+Testing Accuracy: 0.9831
+Epoch: 46 	Training Loss: 13287.0241 	Training Accuracy: 0.9835 	Validation Loss: 81995.4177 	Validation Accuracy: 0.9842 	train_kl_div: 1840334.1596
+Validation loss decreased (84639.685290 --> 81995.417745).  Saving model ...
+Testing Accuracy: 0.9841
+Epoch: 47 	Training Loss: 12836.1346 	Training Accuracy: 0.9840 	Validation Loss: 79125.1014 	Validation Accuracy: 0.9862 	train_kl_div: 1780551.3863
+Validation loss decreased (81995.417745 --> 79125.101403).  Saving model ...
+Testing Accuracy: 0.9837
+Epoch: 48 	Training Loss: 12459.8489 	Training Accuracy: 0.9842 	Validation Loss: 76644.0512 	Validation Accuracy: 0.9866 	train_kl_div: 1725400.5073
+Validation loss decreased (79125.101403 --> 76644.051236).  Saving model ...
+Testing Accuracy: 0.9838
+Epoch: 49 	Training Loss: 12204.8182 	Training Accuracy: 0.9841 	Validation Loss: 74028.2754 	Validation Accuracy: 0.9874 	train_kl_div: 1668197.2606
+Validation loss decreased (76644.051236 --> 74028.275366).  Saving model ...
+Testing Accuracy: 0.9855
+Epoch: 50 	Training Loss: 11682.6877 	Training Accuracy: 0.9854 	Validation Loss: 71652.8309 	Validation Accuracy: 0.9869 	train_kl_div: 1614266.2181
+Validation loss decreased (74028.275366 --> 71652.830860).  Saving model ...
+Testing Accuracy: 0.9860
+Epoch: 51 	Training Loss: 11344.7888 	Training Accuracy: 0.9855 	Validation Loss: 69729.3065 	Validation Accuracy: 0.9870 	train_kl_div: 1562715.1755
+Validation loss decreased (71652.830860 --> 69729.306524).  Saving model ...
+Testing Accuracy: 0.9858
+Epoch: 52 	Training Loss: 11086.6553 	Training Accuracy: 0.9854 	Validation Loss: 67428.9594 	Validation Accuracy: 0.9878 	train_kl_div: 1512289.6350
+Validation loss decreased (69729.306524 --> 67428.959377).  Saving model ...
+Testing Accuracy: 0.9836
+Epoch: 53 	Training Loss: 10729.5527 	Training Accuracy: 0.9862 	Validation Loss: 65212.1600 	Validation Accuracy: 0.9888 	train_kl_div: 1464774.4156
+Validation loss decreased (67428.959377 --> 65212.160017).  Saving model ...
+Testing Accuracy: 0.9858
+Epoch: 54 	Training Loss: 10425.7182 	Training Accuracy: 0.9866 	Validation Loss: 63270.1030 	Validation Accuracy: 0.9875 	train_kl_div: 1418149.6316
+Validation loss decreased (65212.160017 --> 63270.103049).  Saving model ...
+Testing Accuracy: 0.9847
+Epoch: 55 	Training Loss: 10172.5682 	Training Accuracy: 0.9861 	Validation Loss: 61476.0336 	Validation Accuracy: 0.9874 	train_kl_div: 1373648.1742
+Validation loss decreased (63270.103049 --> 61476.033556).  Saving model ...
+Testing Accuracy: 0.9810
+Epoch: 56 	Training Loss: 9884.3394 	Training Accuracy: 0.9865 	Validation Loss: 59266.9169 	Validation Accuracy: 0.9890 	train_kl_div: 1330408.1217
+Validation loss decreased (61476.033556 --> 59266.916919).  Saving model ...
+Testing Accuracy: 0.9864
+Epoch: 57 	Training Loss: 9478.3682 	Training Accuracy: 0.9874 	Validation Loss: 57496.5675 	Validation Accuracy: 0.9886 	train_kl_div: 1288669.6110
+Validation loss decreased (59266.916919 --> 57496.567487).  Saving model ...
+Testing Accuracy: 0.9854
+Epoch: 58 	Training Loss: 9227.5716 	Training Accuracy: 0.9875 	Validation Loss: 55710.0646 	Validation Accuracy: 0.9893 	train_kl_div: 1249583.2400
+Validation loss decreased (57496.567487 --> 55710.064560).  Saving model ...
+Testing Accuracy: 0.9864
+Epoch: 59 	Training Loss: 9011.7614 	Training Accuracy: 0.9873 	Validation Loss: 53982.3118 	Validation Accuracy: 0.9903 	train_kl_div: 1211212.7241
+Validation loss decreased (55710.064560 --> 53982.311758).  Saving model ...
+Testing Accuracy: 0.9868
+Epoch: 60 	Training Loss: 8684.7945 	Training Accuracy: 0.9880 	Validation Loss: 52735.4003 	Validation Accuracy: 0.9870 	train_kl_div: 1173001.8717
+Validation loss decreased (53982.311758 --> 52735.400293).  Saving model ...
+Testing Accuracy: 0.9851
+Epoch: 61 	Training Loss: 8404.5651 	Training Accuracy: 0.9884 	Validation Loss: 50842.5313 	Validation Accuracy: 0.9894 	train_kl_div: 1136504.0266
+Validation loss decreased (52735.400293 --> 50842.531266).  Saving model ...
+Testing Accuracy: 0.9854
+Epoch: 62 	Training Loss: 8316.3567 	Training Accuracy: 0.9873 	Validation Loss: 49479.0690 	Validation Accuracy: 0.9879 	train_kl_div: 1102573.3211
+Validation loss decreased (50842.531266 --> 49479.069045).  Saving model ...
+Testing Accuracy: 0.9851
+Epoch: 63 	Training Loss: 8025.6753 	Training Accuracy: 0.9886 	Validation Loss: 47879.0286 	Validation Accuracy: 0.9890 	train_kl_div: 1069257.6011
+Validation loss decreased (49479.069045 --> 47879.028581).  Saving model ...
+Testing Accuracy: 0.9859
+Epoch: 64 	Training Loss: 7786.1042 	Training Accuracy: 0.9887 	Validation Loss: 46313.7566 	Validation Accuracy: 0.9899 	train_kl_div: 1036515.9684
+Validation loss decreased (47879.028581 --> 46313.756572).  Saving model ...
+Testing Accuracy: 0.9868
+Epoch: 65 	Training Loss: 7643.5635 	Training Accuracy: 0.9889 	Validation Loss: 44878.3692 	Validation Accuracy: 0.9899 	train_kl_div: 1005227.4239
+Validation loss decreased (46313.756572 --> 44878.369180).  Saving model ...
+Testing Accuracy: 0.9863
+Epoch: 66 	Training Loss: 7371.5895 	Training Accuracy: 0.9888 	Validation Loss: 43860.4202 	Validation Accuracy: 0.9898 	train_kl_div: 975542.1815
+Validation loss decreased (44878.369180 --> 43860.420202).  Saving model ...
+Testing Accuracy: 0.9867
+Epoch: 67 	Training Loss: 7249.2740 	Training Accuracy: 0.9884 	Validation Loss: 42578.2446 	Validation Accuracy: 0.9898 	train_kl_div: 947236.6669
+Validation loss decreased (43860.420202 --> 42578.244564).  Saving model ...
+Testing Accuracy: 0.9852
+Epoch: 68 	Training Loss: 7047.0817 	Training Accuracy: 0.9892 	Validation Loss: 41583.2377 	Validation Accuracy: 0.9891 	train_kl_div: 920774.5150
+Validation loss decreased (42578.244564 --> 41583.237662).  Saving model ...
+Testing Accuracy: 0.9844
+Epoch: 69 	Training Loss: 6774.8606 	Training Accuracy: 0.9900 	Validation Loss: 39980.3250 	Validation Accuracy: 0.9907 	train_kl_div: 893169.3730
+Validation loss decreased (41583.237662 --> 39980.324965).  Saving model ...
+Testing Accuracy: 0.9869
+Epoch: 70 	Training Loss: 6644.9903 	Training Accuracy: 0.9899 	Validation Loss: 38944.4633 	Validation Accuracy: 0.9912 	train_kl_div: 867813.0994
+Validation loss decreased (39980.324965 --> 38944.463253).  Saving model ...
+Testing Accuracy: 0.9871
+Epoch: 71 	Training Loss: 6498.9564 	Training Accuracy: 0.9901 	Validation Loss: 38004.8295 	Validation Accuracy: 0.9898 	train_kl_div: 842366.0060
+Validation loss decreased (38944.463253 --> 38004.829505).  Saving model ...
+Testing Accuracy: 0.9860
+Epoch: 72 	Training Loss: 6252.4667 	Training Accuracy: 0.9907 	Validation Loss: 36824.5925 	Validation Accuracy: 0.9913 	train_kl_div: 818974.5120
+Validation loss decreased (38004.829505 --> 36824.592494).  Saving model ...
+Testing Accuracy: 0.9865
+Epoch: 73 	Training Loss: 6068.8515 	Training Accuracy: 0.9906 	Validation Loss: 35600.4206 	Validation Accuracy: 0.9923 	train_kl_div: 794876.5140
+Validation loss decreased (36824.592494 --> 35600.420595).  Saving model ...
+Testing Accuracy: 0.9861
+Epoch: 74 	Training Loss: 5960.6095 	Training Accuracy: 0.9908 	Validation Loss: 34649.4856 	Validation Accuracy: 0.9923 	train_kl_div: 772738.0369
+Validation loss decreased (35600.420595 --> 34649.485625).  Saving model ...
+Testing Accuracy: 0.9861
+Epoch: 75 	Training Loss: 5732.4116 	Training Accuracy: 0.9916 	Validation Loss: 33693.5822 	Validation Accuracy: 0.9919 	train_kl_div: 751742.0928
+Validation loss decreased (34649.485625 --> 33693.582151).  Saving model ...
+Testing Accuracy: 0.9878
+Epoch: 76 	Training Loss: 5673.6113 	Training Accuracy: 0.9906 	Validation Loss: 33375.5774 	Validation Accuracy: 0.9886 	train_kl_div: 731667.9661
+Validation loss decreased (33693.582151 --> 33375.577416).  Saving model ...
+Testing Accuracy: 0.9832
+Epoch: 77 	Training Loss: 5513.6931 	Training Accuracy: 0.9909 	Validation Loss: 32091.2932 	Validation Accuracy: 0.9922 	train_kl_div: 712056.6792
+Validation loss decreased (33375.577416 --> 32091.293184).  Saving model ...
+Testing Accuracy: 0.9866
+Epoch: 78 	Training Loss: 5405.4278 	Training Accuracy: 0.9909 	Validation Loss: 31066.7056 	Validation Accuracy: 0.9927 	train_kl_div: 692162.9757
+Validation loss decreased (32091.293184 --> 31066.705625).  Saving model ...
+Testing Accuracy: 0.9871
+Epoch: 79 	Training Loss: 5281.4363 	Training Accuracy: 0.9911 	Validation Loss: 30298.3605 	Validation Accuracy: 0.9928 	train_kl_div: 673644.2832
+Validation loss decreased (31066.705625 --> 30298.360477).  Saving model ...
+Testing Accuracy: 0.9858
+Epoch: 80 	Training Loss: 5045.7828 	Training Accuracy: 0.9922 	Validation Loss: 29334.7387 	Validation Accuracy: 0.9934 	train_kl_div: 655691.1998
+Validation loss decreased (30298.360477 --> 29334.738718).  Saving model ...
+Testing Accuracy: 0.9871
+Epoch: 81 	Training Loss: 5038.2723 	Training Accuracy: 0.9914 	Validation Loss: 28743.1630 	Validation Accuracy: 0.9927 	train_kl_div: 638275.9432
+Validation loss decreased (29334.738718 --> 28743.162966).  Saving model ...
+Testing Accuracy: 0.9853
+Epoch: 82 	Training Loss: 4903.7151 	Training Accuracy: 0.9919 	Validation Loss: 27999.3988 	Validation Accuracy: 0.9926 	train_kl_div: 622223.8541
+Validation loss decreased (28743.162966 --> 27999.398794).  Saving model ...
+Testing Accuracy: 0.9859
+Epoch: 83 	Training Loss: 4821.7430 	Training Accuracy: 0.9916 	Validation Loss: 27316.6469 	Validation Accuracy: 0.9933 	train_kl_div: 606905.1606
+Validation loss decreased (27999.398794 --> 27316.646852).  Saving model ...
+Testing Accuracy: 0.9867
+Epoch: 84 	Training Loss: 4637.0889 	Training Accuracy: 0.9925 	Validation Loss: 26895.6212 	Validation Accuracy: 0.9920 	train_kl_div: 591209.9481
+Validation loss decreased (27316.646852 --> 26895.621203).  Saving model ...
+Testing Accuracy: 0.9865
+Epoch: 85 	Training Loss: 4611.9927 	Training Accuracy: 0.9921 	Validation Loss: 25961.4722 	Validation Accuracy: 0.9934 	train_kl_div: 577293.6971
+Validation loss decreased (26895.621203 --> 25961.472207).  Saving model ...
+Testing Accuracy: 0.9872
+Epoch: 86 	Training Loss: 4439.9651 	Training Accuracy: 0.9926 	Validation Loss: 25486.7973 	Validation Accuracy: 0.9929 	train_kl_div: 562482.6064
+Validation loss decreased (25961.472207 --> 25486.797311).  Saving model ...
+Testing Accuracy: 0.9865
+Epoch: 87 	Training Loss: 4368.1788 	Training Accuracy: 0.9920 	Validation Loss: 25012.7344 	Validation Accuracy: 0.9918 	train_kl_div: 549106.1822
+Validation loss decreased (25486.797311 --> 25012.734375).  Saving model ...
+Testing Accuracy: 0.9870
+Epoch: 88 	Training Loss: 4273.0672 	Training Accuracy: 0.9925 	Validation Loss: 24315.8061 	Validation Accuracy: 0.9923 	train_kl_div: 535825.7141
+Validation loss decreased (25012.734375 --> 24315.806061).  Saving model ...
+Testing Accuracy: 0.9854
+Epoch: 89 	Training Loss: 4178.0015 	Training Accuracy: 0.9929 	Validation Loss: 23701.3216 	Validation Accuracy: 0.9935 	train_kl_div: 523536.8542
+Validation loss decreased (24315.806061 --> 23701.321559).  Saving model ...
+Testing Accuracy: 0.9860
+Epoch: 90 	Training Loss: 4154.7910 	Training Accuracy: 0.9925 	Validation Loss: 23283.8521 	Validation Accuracy: 0.9931 	train_kl_div: 511122.7964
+Validation loss decreased (23701.321559 --> 23283.852114).  Saving model ...
+Testing Accuracy: 0.9853
+Epoch: 91 	Training Loss: 4030.9182 	Training Accuracy: 0.9929 	Validation Loss: 22531.4567 	Validation Accuracy: 0.9940 	train_kl_div: 499430.9581
+Validation loss decreased (23283.852114 --> 22531.456659).  Saving model ...
+Testing Accuracy: 0.9892
+Epoch: 92 	Training Loss: 3957.1946 	Training Accuracy: 0.9931 	Validation Loss: 22224.3559 	Validation Accuracy: 0.9931 	train_kl_div: 488106.5263
+Validation loss decreased (22531.456659 --> 22224.355945).  Saving model ...
+Testing Accuracy: 0.9851
+Epoch: 93 	Training Loss: 3828.6548 	Training Accuracy: 0.9933 	Validation Loss: 21673.4920 	Validation Accuracy: 0.9940 	train_kl_div: 477072.9699
+Validation loss decreased (22224.355945 --> 21673.492044).  Saving model ...
+Testing Accuracy: 0.9870
+Epoch: 94 	Training Loss: 3722.5850 	Training Accuracy: 0.9932 	Validation Loss: 20955.1033 	Validation Accuracy: 0.9948 	train_kl_div: 466365.0585
+Validation loss decreased (21673.492044 --> 20955.103321).  Saving model ...
+Testing Accuracy: 0.9866
+Epoch: 95 	Training Loss: 3685.8705 	Training Accuracy: 0.9934 	Validation Loss: 20606.3484 	Validation Accuracy: 0.9940 	train_kl_div: 455907.8604
+Validation loss decreased (20955.103321 --> 20606.348371).  Saving model ...
+Testing Accuracy: 0.9878
+Epoch: 96 	Training Loss: 3578.1805 	Training Accuracy: 0.9937 	Validation Loss: 20144.4383 	Validation Accuracy: 0.9948 	train_kl_div: 446570.0972
+Validation loss decreased (20606.348371 --> 20144.438325).  Saving model ...
+Testing Accuracy: 0.9867
+Epoch: 97 	Training Loss: 3593.5613 	Training Accuracy: 0.9934 	Validation Loss: 19996.7404 	Validation Accuracy: 0.9923 	train_kl_div: 436881.0188
+Validation loss decreased (20144.438325 --> 19996.740379).  Saving model ...
+Testing Accuracy: 0.9857
+Epoch: 98 	Training Loss: 3292.8730 	Training Accuracy: 0.9949 	Validation Loss: 19271.0454 	Validation Accuracy: 0.9954 	train_kl_div: 427696.6325
+Validation loss decreased (19996.740379 --> 19271.045412).  Saving model ...
+Testing Accuracy: 0.9886
+Epoch: 99 	Training Loss: 3466.5892 	Training Accuracy: 0.9931 	Validation Loss: 18930.5417 	Validation Accuracy: 0.9945 	train_kl_div: 418788.7731
+Validation loss decreased (19271.045412 --> 18930.541711).  Saving model ...
+Testing Accuracy: 0.9877
+Epoch: 100 	Training Loss: 3330.2827 	Training Accuracy: 0.9937 	Validation Loss: 18487.8823 	Validation Accuracy: 0.9957 	train_kl_div: 409873.1769
+Validation loss decreased (18930.541711 --> 18487.882282).  Saving model ...
+Testing Accuracy: 0.9869
+Epoch: 101 	Training Loss: 3280.7631 	Training Accuracy: 0.9939 	Validation Loss: 18310.7585 	Validation Accuracy: 0.9943 	train_kl_div: 401786.6634
+Validation loss decreased (18487.882282 --> 18310.758532).  Saving model ...
+Testing Accuracy: 0.9866
+Epoch: 102 	Training Loss: 3231.5477 	Training Accuracy: 0.9938 	Validation Loss: 17803.1840 	Validation Accuracy: 0.9950 	train_kl_div: 393964.4033
+Validation loss decreased (18310.758532 --> 17803.184015).  Saving model ...
+Testing Accuracy: 0.9860
+Epoch: 103 	Training Loss: 3088.3865 	Training Accuracy: 0.9943 	Validation Loss: 17552.4100 	Validation Accuracy: 0.9947 	train_kl_div: 385679.6112
+Validation loss decreased (17803.184015 --> 17552.409988).  Saving model ...
+Testing Accuracy: 0.9852
+Epoch: 104 	Training Loss: 3150.2568 	Training Accuracy: 0.9941 	Validation Loss: 17086.7714 	Validation Accuracy: 0.9946 	train_kl_div: 378410.8133
+Validation loss decreased (17552.409988 --> 17086.771383).  Saving model ...
+Testing Accuracy: 0.9868
+Epoch: 105 	Training Loss: 3085.7076 	Training Accuracy: 0.9940 	Validation Loss: 16910.4635 	Validation Accuracy: 0.9949 	train_kl_div: 371508.6449
+Validation loss decreased (17086.771383 --> 16910.463474).  Saving model ...
+Testing Accuracy: 0.9859
+Epoch: 106 	Training Loss: 2969.7010 	Training Accuracy: 0.9948 	Validation Loss: 16683.7236 	Validation Accuracy: 0.9936 	train_kl_div: 364822.5194
+Validation loss decreased (16910.463474 --> 16683.723596).  Saving model ...
+Testing Accuracy: 0.9866
+Epoch: 107 	Training Loss: 2989.0028 	Training Accuracy: 0.9940 	Validation Loss: 16244.7770 	Validation Accuracy: 0.9952 	train_kl_div: 358223.5645
+Validation loss decreased (16683.723596 --> 16244.776987).  Saving model ...
+Testing Accuracy: 0.9854
+Epoch: 108 	Training Loss: 2994.4281 	Training Accuracy: 0.9938 	Validation Loss: 16056.3125 	Validation Accuracy: 0.9946 	train_kl_div: 352129.4476
+Validation loss decreased (16244.776987 --> 16056.312542).  Saving model ...
+Testing Accuracy: 0.9857
+Epoch: 109 	Training Loss: 2809.6484 	Training Accuracy: 0.9948 	Validation Loss: 15723.8537 	Validation Accuracy: 0.9948 	train_kl_div: 345966.9952
+Validation loss decreased (16056.312542 --> 15723.853742).  Saving model ...
+Testing Accuracy: 0.9861
+Epoch: 110 	Training Loss: 2749.7513 	Training Accuracy: 0.9950 	Validation Loss: 15321.1867 	Validation Accuracy: 0.9962 	train_kl_div: 340153.1228
+Validation loss decreased (15723.853742 --> 15321.186672).  Saving model ...
+Testing Accuracy: 0.9871
+Epoch: 111 	Training Loss: 2862.8466 	Training Accuracy: 0.9940 	Validation Loss: 15273.0375 	Validation Accuracy: 0.9947 	train_kl_div: 334020.3986
+Validation loss decreased (15321.186672 --> 15273.037460).  Saving model ...
+Testing Accuracy: 0.9859
+Epoch: 112 	Training Loss: 2737.5333 	Training Accuracy: 0.9946 	Validation Loss: 14844.6251 	Validation Accuracy: 0.9956 	train_kl_div: 328587.5816
+Validation loss decreased (15273.037460 --> 14844.625068).  Saving model ...
+Testing Accuracy: 0.9868
+Epoch: 113 	Training Loss: 2684.5100 	Training Accuracy: 0.9945 	Validation Loss: 14590.2727 	Validation Accuracy: 0.9960 	train_kl_div: 323285.9008
+Validation loss decreased (14844.625068 --> 14590.272679).  Saving model ...
+Testing Accuracy: 0.9876
+Epoch: 114 	Training Loss: 2712.5265 	Training Accuracy: 0.9945 	Validation Loss: 14615.7552 	Validation Accuracy: 0.9945 	train_kl_div: 318647.9779
+Testing Accuracy: 0.9859
+Epoch: 115 	Training Loss: 2696.2659 	Training Accuracy: 0.9941 	Validation Loss: 14697.1843 	Validation Accuracy: 0.9925 	train_kl_div: 313813.4574
+Testing Accuracy: 0.9851
+Epoch: 116 	Training Loss: 2608.0562 	Training Accuracy: 0.9951 	Validation Loss: 14280.5850 	Validation Accuracy: 0.9942 	train_kl_div: 309590.9965
+Validation loss decreased (14590.272679 --> 14280.584958).  Saving model ...
+Testing Accuracy: 0.9854
+Epoch: 117 	Training Loss: 2482.9139 	Training Accuracy: 0.9954 	Validation Loss: 13717.1424 	Validation Accuracy: 0.9963 	train_kl_div: 304568.1704
+Validation loss decreased (14280.584958 --> 13717.142426).  Saving model ...
+Testing Accuracy: 0.9871
+Epoch: 118 	Training Loss: 2492.9851 	Training Accuracy: 0.9954 	Validation Loss: 13624.6616 	Validation Accuracy: 0.9952 	train_kl_div: 300106.7252
+Validation loss decreased (13717.142426 --> 13624.661579).  Saving model ...
+Testing Accuracy: 0.9858
+Epoch: 119 	Training Loss: 2465.8234 	Training Accuracy: 0.9950 	Validation Loss: 13429.5576 	Validation Accuracy: 0.9960 	train_kl_div: 295400.8172
+Validation loss decreased (13624.661579 --> 13429.557641).  Saving model ...
+Testing Accuracy: 0.9877
+Epoch: 120 	Training Loss: 2437.0042 	Training Accuracy: 0.9949 	Validation Loss: 13189.1539 	Validation Accuracy: 0.9962 	train_kl_div: 291325.7839
+Validation loss decreased (13429.557641 --> 13189.153933).  Saving model ...
+Testing Accuracy: 0.9858
+Epoch: 121 	Training Loss: 2485.5043 	Training Accuracy: 0.9947 	Validation Loss: 13147.9408 	Validation Accuracy: 0.9957 	train_kl_div: 287237.2990
+Validation loss decreased (13189.153933 --> 13147.940823).  Saving model ...
+Testing Accuracy: 0.9863
+Epoch: 122 	Training Loss: 2339.3339 	Training Accuracy: 0.9953 	Validation Loss: 12919.3049 	Validation Accuracy: 0.9959 	train_kl_div: 283456.5254
+Validation loss decreased (13147.940823 --> 12919.304898).  Saving model ...
+Testing Accuracy: 0.9860
+Epoch: 123 	Training Loss: 2303.4665 	Training Accuracy: 0.9956 	Validation Loss: 12687.1481 	Validation Accuracy: 0.9963 	train_kl_div: 279522.4106
+Validation loss decreased (12919.304898 --> 12687.148116).  Saving model ...
+Testing Accuracy: 0.9857
+Epoch: 124 	Training Loss: 2359.9604 	Training Accuracy: 0.9950 	Validation Loss: 12659.5151 	Validation Accuracy: 0.9951 	train_kl_div: 275870.6976
+Validation loss decreased (12687.148116 --> 12659.515149).  Saving model ...
+Testing Accuracy: 0.9866
+Epoch: 125 	Training Loss: 2220.9434 	Training Accuracy: 0.9957 	Validation Loss: 12462.0505 	Validation Accuracy: 0.9951 	train_kl_div: 272338.3788
+Validation loss decreased (12659.515149 --> 12462.050532).  Saving model ...
+Testing Accuracy: 0.9874
+Epoch: 126 	Training Loss: 2202.6264 	Training Accuracy: 0.9960 	Validation Loss: 12221.8530 	Validation Accuracy: 0.9960 	train_kl_div: 268779.5663
+Validation loss decreased (12462.050532 --> 12221.853007).  Saving model ...
+Testing Accuracy: 0.9862
+Epoch: 127 	Training Loss: 2288.2241 	Training Accuracy: 0.9951 	Validation Loss: 12375.0115 	Validation Accuracy: 0.9947 	train_kl_div: 265696.2420
+Testing Accuracy: 0.9860
+Epoch: 128 	Training Loss: 2214.5777 	Training Accuracy: 0.9953 	Validation Loss: 12161.8838 	Validation Accuracy: 0.9946 	train_kl_div: 262939.0937
+Validation loss decreased (12221.853007 --> 12161.883766).  Saving model ...
+Testing Accuracy: 0.9856
+Epoch: 129 	Training Loss: 2266.6329 	Training Accuracy: 0.9953 	Validation Loss: 11988.8819 	Validation Accuracy: 0.9957 	train_kl_div: 259985.8364
+Validation loss decreased (12161.883766 --> 11988.881906).  Saving model ...
+Testing Accuracy: 0.9859
+Epoch: 130 	Training Loss: 2214.7878 	Training Accuracy: 0.9951 	Validation Loss: 11820.9639 	Validation Accuracy: 0.9952 	train_kl_div: 257499.1186
+Validation loss decreased (11988.881906 --> 11820.963941).  Saving model ...
+Testing Accuracy: 0.9861
+Epoch: 131 	Training Loss: 2209.4775 	Training Accuracy: 0.9949 	Validation Loss: 11627.9334 	Validation Accuracy: 0.9958 	train_kl_div: 254522.6564
+Validation loss decreased (11820.963941 --> 11627.933357).  Saving model ...
+Testing Accuracy: 0.9866
+Epoch: 132 	Training Loss: 2061.6239 	Training Accuracy: 0.9958 	Validation Loss: 11508.3352 	Validation Accuracy: 0.9961 	train_kl_div: 251708.7330
+Validation loss decreased (11627.933357 --> 11508.335176).  Saving model ...
+Testing Accuracy: 0.9860
+Epoch: 133 	Training Loss: 2073.1063 	Training Accuracy: 0.9959 	Validation Loss: 11358.8542 	Validation Accuracy: 0.9961 	train_kl_div: 249123.4093
+Validation loss decreased (11508.335176 --> 11358.854244).  Saving model ...
+Testing Accuracy: 0.9858
+Epoch: 134 	Training Loss: 2029.3704 	Training Accuracy: 0.9957 	Validation Loss: 11463.7567 	Validation Accuracy: 0.9948 	train_kl_div: 246426.7763
+Testing Accuracy: 0.9844
+Epoch: 135 	Training Loss: 2027.4530 	Training Accuracy: 0.9957 	Validation Loss: 11081.8855 	Validation Accuracy: 0.9972 	train_kl_div: 243979.9944
+Validation loss decreased (11358.854244 --> 11081.885528).  Saving model ...
+Testing Accuracy: 0.9867
+Epoch: 136 	Training Loss: 2000.5570 	Training Accuracy: 0.9957 	Validation Loss: 10901.2340 	Validation Accuracy: 0.9970 	train_kl_div: 241329.6364
+Validation loss decreased (11081.885528 --> 10901.233982).  Saving model ...
+Testing Accuracy: 0.9857
+Epoch: 137 	Training Loss: 2010.6998 	Training Accuracy: 0.9959 	Validation Loss: 11122.7822 	Validation Accuracy: 0.9948 	train_kl_div: 238968.5799
+Testing Accuracy: 0.9854
+Epoch: 138 	Training Loss: 1979.1958 	Training Accuracy: 0.9959 	Validation Loss: 10786.4196 	Validation Accuracy: 0.9962 	train_kl_div: 236572.4971
+Validation loss decreased (10901.233982 --> 10786.419605).  Saving model ...
+Testing Accuracy: 0.9867
+Epoch: 139 	Training Loss: 1956.5859 	Training Accuracy: 0.9961 	Validation Loss: 10585.8873 	Validation Accuracy: 0.9967 	train_kl_div: 234027.2443
+Validation loss decreased (10786.419605 --> 10585.887342).  Saving model ...
+Testing Accuracy: 0.9856
+Epoch: 140 	Training Loss: 1956.8873 	Training Accuracy: 0.9958 	Validation Loss: 10596.1841 	Validation Accuracy: 0.9960 	train_kl_div: 232216.7331
+Testing Accuracy: 0.9868
+Epoch: 141 	Training Loss: 1870.3576 	Training Accuracy: 0.9965 	Validation Loss: 10632.2436 	Validation Accuracy: 0.9952 	train_kl_div: 229959.9480
+Testing Accuracy: 0.9872
+Epoch: 142 	Training Loss: 1975.3117 	Training Accuracy: 0.9957 	Validation Loss: 10406.4223 	Validation Accuracy: 0.9965 	train_kl_div: 228127.7683
+Validation loss decreased (10585.887342 --> 10406.422299).  Saving model ...
+Testing Accuracy: 0.9862
+Epoch: 143 	Training Loss: 1922.3846 	Training Accuracy: 0.9962 	Validation Loss: 10297.2234 	Validation Accuracy: 0.9970 	train_kl_div: 226486.8340
+Validation loss decreased (10406.422299 --> 10297.223367).  Saving model ...
+Testing Accuracy: 0.9865
+Epoch: 144 	Training Loss: 1875.2981 	Training Accuracy: 0.9963 	Validation Loss: 10355.7796 	Validation Accuracy: 0.9956 	train_kl_div: 224463.5927
+Testing Accuracy: 0.9867
+Epoch: 145 	Training Loss: 1896.2174 	Training Accuracy: 0.9960 	Validation Loss: 10031.4790 	Validation Accuracy: 0.9969 	train_kl_div: 222589.2685
+Validation loss decreased (10297.223367 --> 10031.478988).  Saving model ...
+Testing Accuracy: 0.9863
+Epoch: 146 	Training Loss: 1772.6549 	Training Accuracy: 0.9965 	Validation Loss: 10049.1535 	Validation Accuracy: 0.9961 	train_kl_div: 220787.8658
+Testing Accuracy: 0.9862
+Epoch: 147 	Training Loss: 1851.8607 	Training Accuracy: 0.9961 	Validation Loss: 9916.5304 	Validation Accuracy: 0.9973 	train_kl_div: 219131.8547
+Validation loss decreased (10031.478988 --> 9916.530400).  Saving model ...
+Testing Accuracy: 0.9856
+Epoch: 148 	Training Loss: 1821.5391 	Training Accuracy: 0.9960 	Validation Loss: 10047.7060 	Validation Accuracy: 0.9960 	train_kl_div: 217749.9746
+Testing Accuracy: 0.9878
+Epoch: 149 	Training Loss: 1820.2529 	Training Accuracy: 0.9965 	Validation Loss: 9893.2549 	Validation Accuracy: 0.9964 	train_kl_div: 216128.7655
+Validation loss decreased (9916.530400 --> 9893.254875).  Saving model ...
+Testing Accuracy: 0.9858
+Epoch: 150 	Training Loss: 1895.8264 	Training Accuracy: 0.9957 	Validation Loss: 9903.3254 	Validation Accuracy: 0.9958 	train_kl_div: 214882.2443
+Testing Accuracy: 0.9867
+Epoch: 151 	Training Loss: 1758.6008 	Training Accuracy: 0.9966 	Validation Loss: 9939.6555 	Validation Accuracy: 0.9953 	train_kl_div: 213343.5915
+Testing Accuracy: 0.9830
+Epoch: 152 	Training Loss: 1682.9635 	Training Accuracy: 0.9969 	Validation Loss: 9707.1646 	Validation Accuracy: 0.9954 	train_kl_div: 211669.1818
+Validation loss decreased (9893.254875 --> 9707.164575).  Saving model ...
+Testing Accuracy: 0.9871
+Epoch: 153 	Training Loss: 1808.2582 	Training Accuracy: 0.9958 	Validation Loss: 9550.5944 	Validation Accuracy: 0.9972 	train_kl_div: 210150.2578
+Validation loss decreased (9707.164575 --> 9550.594421).  Saving model ...
+Testing Accuracy: 0.9862
+Epoch: 154 	Training Loss: 1667.4122 	Training Accuracy: 0.9968 	Validation Loss: 9455.6307 	Validation Accuracy: 0.9975 	train_kl_div: 208853.8631
+Validation loss decreased (9550.594421 --> 9455.630663).  Saving model ...
+Testing Accuracy: 0.9867
+Epoch: 155 	Training Loss: 1677.9566 	Training Accuracy: 0.9968 	Validation Loss: 9300.2772 	Validation Accuracy: 0.9975 	train_kl_div: 207347.5020
+Validation loss decreased (9455.630663 --> 9300.277243).  Saving model ...
+Testing Accuracy: 0.9862
+Epoch: 156 	Training Loss: 1691.3795 	Training Accuracy: 0.9968 	Validation Loss: 9491.8693 	Validation Accuracy: 0.9958 	train_kl_div: 205775.0563
+Testing Accuracy: 0.9851
+Epoch: 157 	Training Loss: 1706.6233 	Training Accuracy: 0.9964 	Validation Loss: 9348.1593 	Validation Accuracy: 0.9969 	train_kl_div: 204477.6808
+Testing Accuracy: 0.9867
+Epoch: 158 	Training Loss: 1672.6808 	Training Accuracy: 0.9963 	Validation Loss: 9186.2829 	Validation Accuracy: 0.9974 	train_kl_div: 203553.0682
+Validation loss decreased (9300.277243 --> 9186.282869).  Saving model ...
+Testing Accuracy: 0.9859
+Epoch: 159 	Training Loss: 1711.3899 	Training Accuracy: 0.9964 	Validation Loss: 9498.2104 	Validation Accuracy: 0.9946 	train_kl_div: 202270.6273
+Testing Accuracy: 0.9845
+Epoch: 160 	Training Loss: 1675.0492 	Training Accuracy: 0.9964 	Validation Loss: 9315.8805 	Validation Accuracy: 0.9964 	train_kl_div: 201336.2091
+Testing Accuracy: 0.9870
+Epoch: 161 	Training Loss: 1654.3951 	Training Accuracy: 0.9966 	Validation Loss: 9036.7903 	Validation Accuracy: 0.9979 	train_kl_div: 199921.6879
+Validation loss decreased (9186.282869 --> 9036.790342).  Saving model ...
+Testing Accuracy: 0.9869
+Epoch: 162 	Training Loss: 1722.1470 	Training Accuracy: 0.9961 	Validation Loss: 9050.2830 	Validation Accuracy: 0.9977 	train_kl_div: 198834.3664
+Testing Accuracy: 0.9869
+Epoch: 163 	Training Loss: 1619.9001 	Training Accuracy: 0.9967 	Validation Loss: 9220.2275 	Validation Accuracy: 0.9961 	train_kl_div: 198185.9358
+Testing Accuracy: 0.9850
+Epoch: 164 	Training Loss: 1603.3937 	Training Accuracy: 0.9966 	Validation Loss: 8901.8374 	Validation Accuracy: 0.9977 	train_kl_div: 197066.1877
+Validation loss decreased (9036.790342 --> 8901.837422).  Saving model ...
+Testing Accuracy: 0.9859
+Epoch: 165 	Training Loss: 1640.1834 	Training Accuracy: 0.9965 	Validation Loss: 8833.4335 	Validation Accuracy: 0.9977 	train_kl_div: 196180.9451
+Validation loss decreased (8901.837422 --> 8833.433507).  Saving model ...
+Testing Accuracy: 0.9870
+Epoch: 166 	Training Loss: 1507.7103 	Training Accuracy: 0.9972 	Validation Loss: 8768.4112 	Validation Accuracy: 0.9972 	train_kl_div: 194980.8120
+Validation loss decreased (8833.433507 --> 8768.411203).  Saving model ...
+Testing Accuracy: 0.9856
+Epoch: 167 	Training Loss: 1537.1222 	Training Accuracy: 0.9967 	Validation Loss: 8804.2850 	Validation Accuracy: 0.9971 	train_kl_div: 193310.4697
+Testing Accuracy: 0.9869
+Epoch: 168 	Training Loss: 1644.7742 	Training Accuracy: 0.9963 	Validation Loss: 8775.6632 	Validation Accuracy: 0.9969 	train_kl_div: 192287.0859
+Testing Accuracy: 0.9863
+Epoch: 169 	Training Loss: 1536.3513 	Training Accuracy: 0.9969 	Validation Loss: 8973.3082 	Validation Accuracy: 0.9955 	train_kl_div: 191647.6202
+Testing Accuracy: 0.9854
+Epoch: 170 	Training Loss: 1587.1245 	Training Accuracy: 0.9965 	Validation Loss: 8649.1349 	Validation Accuracy: 0.9975 	train_kl_div: 190743.4251
+Validation loss decreased (8768.411203 --> 8649.134895).  Saving model ...
+Testing Accuracy: 0.9864
+Epoch: 171 	Training Loss: 1633.2714 	Training Accuracy: 0.9963 	Validation Loss: 8550.8189 	Validation Accuracy: 0.9975 	train_kl_div: 190001.1148
+Validation loss decreased (8649.134895 --> 8550.818852).  Saving model ...
+Testing Accuracy: 0.9857
+Epoch: 172 	Training Loss: 1559.8318 	Training Accuracy: 0.9968 	Validation Loss: 8697.9803 	Validation Accuracy: 0.9964 	train_kl_div: 189284.2822
+Testing Accuracy: 0.9855
+Epoch: 173 	Training Loss: 1590.3103 	Training Accuracy: 0.9964 	Validation Loss: 8695.2055 	Validation Accuracy: 0.9965 	train_kl_div: 188492.0654
+Testing Accuracy: 0.9863
+Epoch: 174 	Training Loss: 1586.2515 	Training Accuracy: 0.9967 	Validation Loss: 8597.0362 	Validation Accuracy: 0.9963 	train_kl_div: 187719.3424
+Testing Accuracy: 0.9858
+Epoch: 175 	Training Loss: 1493.0550 	Training Accuracy: 0.9973 	Validation Loss: 8893.6557 	Validation Accuracy: 0.9953 	train_kl_div: 186845.5998
+Testing Accuracy: 0.9879
+Epoch: 176 	Training Loss: 1501.6698 	Training Accuracy: 0.9973 	Validation Loss: 8451.3540 	Validation Accuracy: 0.9977 	train_kl_div: 185657.3290
+Validation loss decreased (8550.818852 --> 8451.353977).  Saving model ...
+Testing Accuracy: 0.9872
+Epoch: 177 	Training Loss: 1486.0332 	Training Accuracy: 0.9973 	Validation Loss: 8269.5261 	Validation Accuracy: 0.9978 	train_kl_div: 184492.6955
+Validation loss decreased (8451.353977 --> 8269.526066).  Saving model ...
+Testing Accuracy: 0.9865
+Epoch: 178 	Training Loss: 1459.5326 	Training Accuracy: 0.9970 	Validation Loss: 8303.4307 	Validation Accuracy: 0.9976 	train_kl_div: 183461.4417
+Testing Accuracy: 0.9864
+Epoch: 179 	Training Loss: 1495.9953 	Training Accuracy: 0.9970 	Validation Loss: 8328.3299 	Validation Accuracy: 0.9975 	train_kl_div: 182371.7330
+Testing Accuracy: 0.9865
+Epoch: 180 	Training Loss: 1525.7314 	Training Accuracy: 0.9969 	Validation Loss: 8312.3774 	Validation Accuracy: 0.9968 	train_kl_div: 181645.6874
+Testing Accuracy: 0.9859
+Epoch: 181 	Training Loss: 1493.8064 	Training Accuracy: 0.9969 	Validation Loss: 8091.5652 	Validation Accuracy: 0.9978 	train_kl_div: 181023.4747
+Validation loss decreased (8269.526066 --> 8091.565234).  Saving model ...
+Testing Accuracy: 0.9862
+Epoch: 182 	Training Loss: 1529.8536 	Training Accuracy: 0.9966 	Validation Loss: 8150.1982 	Validation Accuracy: 0.9973 	train_kl_div: 180252.8265
+Testing Accuracy: 0.9859
+Epoch: 183 	Training Loss: 1529.9057 	Training Accuracy: 0.9969 	Validation Loss: 8301.9293 	Validation Accuracy: 0.9970 	train_kl_div: 179847.5535
+Testing Accuracy: 0.9850
+Epoch: 184 	Training Loss: 1526.8797 	Training Accuracy: 0.9969 	Validation Loss: 8138.9263 	Validation Accuracy: 0.9977 	train_kl_div: 179559.0995
+Testing Accuracy: 0.9862
+Epoch: 185 	Training Loss: 1483.1818 	Training Accuracy: 0.9970 	Validation Loss: 8082.2798 	Validation Accuracy: 0.9978 	train_kl_div: 178685.3552
+Validation loss decreased (8091.565234 --> 8082.279756).  Saving model ...
+Testing Accuracy: 0.9876
+Epoch: 186 	Training Loss: 1377.9287 	Training Accuracy: 0.9975 	Validation Loss: 7903.7224 	Validation Accuracy: 0.9985 	train_kl_div: 177817.1042
+Validation loss decreased (8082.279756 --> 7903.722443).  Saving model ...
+Testing Accuracy: 0.9875
+Epoch: 187 	Training Loss: 1409.3499 	Training Accuracy: 0.9973 	Validation Loss: 7997.2418 	Validation Accuracy: 0.9979 	train_kl_div: 177012.0360
+Testing Accuracy: 0.9873
+Epoch: 188 	Training Loss: 1404.4168 	Training Accuracy: 0.9975 	Validation Loss: 8013.9591 	Validation Accuracy: 0.9972 	train_kl_div: 175979.7271
+Testing Accuracy: 0.9864
+Epoch: 189 	Training Loss: 1478.5512 	Training Accuracy: 0.9969 	Validation Loss: 7959.9005 	Validation Accuracy: 0.9972 	train_kl_div: 175231.0929
+Testing Accuracy: 0.9854
+Epoch: 190 	Training Loss: 1452.1826 	Training Accuracy: 0.9971 	Validation Loss: 7892.2961 	Validation Accuracy: 0.9979 	train_kl_div: 174703.8669
+Validation loss decreased (7903.722443 --> 7892.296056).  Saving model ...
+Testing Accuracy: 0.9850
+Epoch: 191 	Training Loss: 1411.2991 	Training Accuracy: 0.9971 	Validation Loss: 7805.5183 	Validation Accuracy: 0.9980 	train_kl_div: 174016.8706
+Validation loss decreased (7892.296056 --> 7805.518312).  Saving model ...
+Testing Accuracy: 0.9865
+Epoch: 192 	Training Loss: 1416.4359 	Training Accuracy: 0.9970 	Validation Loss: 8005.9780 	Validation Accuracy: 0.9966 	train_kl_div: 173466.3201
+Testing Accuracy: 0.9860
+Epoch: 193 	Training Loss: 1456.5780 	Training Accuracy: 0.9970 	Validation Loss: 7898.3198 	Validation Accuracy: 0.9969 	train_kl_div: 172831.0132
+Testing Accuracy: 0.9864
+Epoch: 194 	Training Loss: 1399.2105 	Training Accuracy: 0.9970 	Validation Loss: 7728.2772 	Validation Accuracy: 0.9980 	train_kl_div: 172308.1871
+Validation loss decreased (7805.518312 --> 7728.277174).  Saving model ...
+Testing Accuracy: 0.9861
+Epoch: 195 	Training Loss: 1379.3526 	Training Accuracy: 0.9972 	Validation Loss: 7729.0483 	Validation Accuracy: 0.9980 	train_kl_div: 171899.2480
+Testing Accuracy: 0.9852
+Epoch: 196 	Training Loss: 1280.5252 	Training Accuracy: 0.9979 	Validation Loss: 7770.0579 	Validation Accuracy: 0.9968 	train_kl_div: 170990.0911
+Testing Accuracy: 0.9862
+Epoch: 197 	Training Loss: 1353.3790 	Training Accuracy: 0.9975 	Validation Loss: 7615.2142 	Validation Accuracy: 0.9983 	train_kl_div: 170366.2474
+Validation loss decreased (7728.277174 --> 7615.214163).  Saving model ...
+Testing Accuracy: 0.9865
+Epoch: 198 	Training Loss: 1446.5908 	Training Accuracy: 0.9967 	Validation Loss: 7963.6391 	Validation Accuracy: 0.9960 	train_kl_div: 169669.6140
+Testing Accuracy: 0.9853
+Epoch: 199 	Training Loss: 1432.3845 	Training Accuracy: 0.9968 	Validation Loss: 7661.8136 	Validation Accuracy: 0.9978 	train_kl_div: 169742.3027
+Testing Accuracy: 0.9870
+
+Process finished with exit code 0

@@ -1,0 +1,3 @@
+W0821 14:16:23.635175 33276 device_context.cc:404] Please NOTE: device: 0, GPU Compute Capability: 8.6, Driver API Version: 11.2, Runtime API Version: 11.0
+W0821 14:16:23.642156 33276 device_context.cc:422] device: 0, cuDNN Version: 8.1.
+Testing Accuracy: 0.9873

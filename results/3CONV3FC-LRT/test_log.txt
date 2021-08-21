@@ -1,0 +1,4 @@
+(paddle_gpu) F:\FormalDL\比赛\人工智能创新应用大赛20210817\Weight Uncertainty in Neural Networks\Paddle-BayesianCNN>python test.py --net_type 3conv3fc --dataset MNIST
+W0821 17:05:29.779377 33744 device_context.cc:404] Please NOTE: device: 0, GPU Compute Capability: 8.6, Driver API Version: 11.2, Runtime API Version: 11.0
+W0821 17:05:29.785360 33744 device_context.cc:422] device: 0, cuDNN Version: 8.1.
+Testing Accuracy: 0.9929
